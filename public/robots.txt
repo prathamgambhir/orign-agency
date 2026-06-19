@@ -4,7 +4,7 @@ Allow: /
 Sitemap: https://orign.co.in/sitemap.xml
 
 
-Sitemap: https://orign.agency/sitemap.xml
+Sitemap: https://orign.co.in/sitemap.xml
 
 # Google specific
 User-agent: Googlebot

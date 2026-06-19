@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://orign.agency</loc>
+    <loc>https://orign.co.in</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <lastmod>2024-06-19</lastmod>
   </url>
   <url>
-    <loc>https://orign.agency/webdev</loc>
+    <loc>https://orign.co.in/webdev</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <lastmod>2024-06-19</lastmod>
     <image:image>
-      <image:loc>https://orign.agency/logo.jpeg</image:loc>
+      <image:loc>https://orign.co.in/logo.jpeg</image:loc>
       <image:title>Web Development Services</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://orign.agency/videography</loc>
+    <loc>https://orign.co.in/videography</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <lastmod>2024-06-19</lastmod>
     <image:image>
-      <image:loc>https://orign.agency/logo.jpeg</image:loc>
+      <image:loc>https://orign.co.in/logo.jpeg</image:loc>
       <image:title>Videography Services</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://orign.agency/photography</loc>
+    <loc>https://orign.co.in/photography</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <lastmod>2024-06-19</lastmod>
     <image:image>
-      <image:loc>https://orign.agency/photography/photo1.jpeg</image:loc>
+      <image:loc>https://orign.co.in/photography/photo1.jpeg</image:loc>
       <image:title>Photography Portfolio</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://orign.agency/clipping</loc>
+    <loc>https://orign.co.in/clipping</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <lastmod>2024-06-19</lastmod>
     <image:image>
-      <image:loc>https://orign.agency/logo.jpeg</image:loc>
+      <image:loc>https://orign.co.in/logo.jpeg</image:loc>
       <image:title>Video Clipping Services</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://orign.agency/podcasts</loc>
+    <loc>https://orign.co.in/podcasts</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <lastmod>2024-06-19</lastmod>
     <image:image>
-      <image:loc>https://orign.agency/logo.jpeg</image:loc>
+      <image:loc>https://orign.co.in/logo.jpeg</image:loc>
       <image:title>Podcast Production</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://orign.agency/social-media</loc>
+    <loc>https://orign.co.in/social-media</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <lastmod>2024-06-19</lastmod>
     <image:image>
-      <image:loc>https://orign.agency/logo.jpeg</image:loc>
+      <image:loc>https://orign.co.in/logo.jpeg</image:loc>
       <image:title>Social Media Management</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://orign.agency/contact</loc>
+    <loc>https://orign.co.in/contact</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <lastmod>2024-06-19</lastmod>

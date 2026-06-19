@@ -159,6 +159,6 @@ The following schema types are implemented:
 
 - All social media URLs in footer should be updated with actual links
 - Contact email in footer links to `/contact` page
-- Ensure `https://orign.agency` domain is actual domain (update if different)
+- Ensure `https://orign.co.in` domain is actual domain (update if different)
 - Monitor 404 errors in Search Console
 - Update sitemap.xml last modified dates periodically
