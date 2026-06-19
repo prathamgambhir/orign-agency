@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { SiteNav } from "@/components/site-nav";
+import { Analytics } from '@vercel/analytics/next';
 import "./globals.css";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
@@ -57,7 +58,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://orign.co.in",
     siteName: "Orign Creative",
-    title: "Orign Creative Agency | Premium Web Dev, Video & Podcast Production",
+    title: "Orign | Digital Marketing & Creative Agency",
     description:
       "We build high-performance digital interfaces, premium podcasts, dynamic visual content assets, and structural social media systems that make modern brands impossible to ignore.",
     images: [
@@ -71,7 +72,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Orign Creative Agency | Premium Content Systems",
+    title: "Orign | Digital Marketing & Creative Agency",
     description:
       "Architecting premium digital assets, high-retention video pipelines, and bespoke web platforms for brands with market momentum.",
     images: ["https://orign.co.in/logo.jpeg"],
@@ -158,6 +159,7 @@ export default function RootLayout({
         {/* Main core layout wrapper to pass appropriate semantic index rules to screen crawlers */}
         <main id="main-content" className="flex-grow focus:outline-none">
           {children}
+          <Analytics />
         </main>
       </body>
     </html>
