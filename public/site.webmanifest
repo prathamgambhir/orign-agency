@@ -1,0 +1,26 @@
+{
+  "name": "Orign Creative Agency - Web Design & Video Production",
+  "short_name": "Orign",
+  "description": "Professional creative agency specializing in web development, videography, photography, video clipping, podcast production, and social media management.",
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#07111f",
+  "background_color": "#fbfaf3",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["business", "technology"],
+  "icons": [
+    {
+      "src": "/logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ]
+}
