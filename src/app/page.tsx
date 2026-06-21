@@ -44,11 +44,11 @@ const work = [
 const reviewsRow1 = [
   {
     id: "OR-01",
-    author: "Marcus Vance",
-    role: "Head of Brand at Velo Capital",
-    avatarText: "MV",
-    tag: "Web / Infra",
-    text: "They transformed a loose, fragmented concept into an infrastructure system that looked wildly expensive and converted like crazy. The engineering logic behind their UI system completely changed our baseline.",
+    author: "Aarav Mehta",
+    role: "Founder, Delta Growth Labs",
+    avatarText: "AM",
+    tag: "Next.js / Infra",
+    text: "They completely overhauled our fragmented consumer pipeline into an optimization engine that scaled our engineering infrastructure. The modular logic behind their UI systems completely altered our primary acquisition metrics."
   },
   {
     id: "OR-02",
@@ -56,43 +56,115 @@ const reviewsRow1 = [
     role: "Chief Marketing Officer, Aura",
     avatarText: "ER",
     tag: "Identity",
-    text: "Our multi-channel shoot, content loops, and landing page finally felt like a single premium brand voice speaking clearly. They don't just export files; they design systems that print retention.",
+    text: "Our multi-channel shoot, content loops, and landing page finally felt like a single premium brand voice speaking clearly. They don't just export files; they design systems that print retention."
+  },
+  {
+    id: "OR-04",
+    author: "Bhuvan Gambhir",
+    role: "CEO, Gambhir Internationals",
+    avatarText: "BG",
+    tag: "UI-UX / Web",
+    text: "Our commercial multi-cam shoots went from logistically messy to absolutely systematic. They engineered our content engine so every creative output had an explicit analytical objective."
   },
   {
     id: "OR-03",
+    author: "Rohan Sharma",
+    role: "VP of Product, Zephyr Fintech",
+    avatarText: "RS",
+    tag: "Video Engine",
+    text: "Meticulous engineering execution. They designed our enterprise landing systems with custom Tailwind logic that brought our interactive components to life. Conversion friction was essentially eliminated."
+  },
+  {
+    id: "OR-05",
     author: "Devon Cho",
     role: "Founder, Paradigm Media Group",
     avatarText: "DC",
     tag: "Growth Systems",
-    text: "Meticulous, faster than humanly possible, and incredibly strategic. Every single asset delivered had a mechanical purpose assigned to it. Absolutely no creative fluff here.",
+    text: "Meticulous, faster than humanly possible, and incredibly strategic. Every single asset delivered had a mechanical purpose assigned to it. Absolutely no creative fluff here."
   },
+  {
+    id: "OR-06",
+    author: "Kabir Malhotra",
+    role: "Director of Brand, Vyper Commerce",
+    avatarText: "KM",
+    tag: "Social Systems",
+    text: "The clipping systems they set up for our distribution took our founder-led media assets straight to hyper-scale. They map out virality like standard software deployment."
+  },
+  {
+    id: "OR-07",
+    author: "Pooja Hegde",
+    role: "Creative Producer, The Matrix Pod",
+    avatarText: "PH",
+    tag: "Showrunners",
+    text: "Our studio layout and post-production workflow completely changed after their audit. They balanced absolute typographical perfection with automated batch video delivery."
+  }
 ];
 
 const reviewsRow2 = [
   {
-    id: "OR-04",
+    id: "OR-08",
     author: "Sarah Jenkins",
     role: "Executive Producer, The Next Wave",
     avatarText: "SJ",
     tag: "Showrunners",
-    text: "Our founder-led podcast went from improvised to hyper-intentional without losing its underlying personality. They managed to balance extreme design polish with absolute structural efficiency.",
+    text: "Our founder-led podcast went from improvised to hyper-intentional without losing its underlying personality. They managed to balance extreme design polish with absolute structural efficiency."
   },
   {
-    id: "OR-05",
+    id: "OR-09",
+    author: "Vikram Sait",
+    role: "Chief Growth Officer, Omnichannel IN",
+    avatarText: "VS",
+    tag: "Clipping / Automations",
+    text: "Our raw audience retention metrics went vertical within weeks of integrating their short-form production framework. They handle raw timeline cuts with deep product engineering precision."
+  },
+  {
+    id: "OR-10",
+    author: "Nisha Patel",
+    role: "Founder, Bloom Cosmetics",
+    avatarText: "NP",
+    tag: "Brand Shoot",
+    text: "The lookbook and premium ad assets they directed redefined how we present luxury e-commerce in India. No creative fluff—just beautiful, performance-optimized visual materials."
+  },
+  {
+    id: "OR-11",
     author: "Kilian Cross",
     role: "Director of Organic, Stealth Labs",
     avatarText: "KC",
     tag: "Content Engine",
-    text: "They understand immediate social loop mechanics and world-class typographical layouts at the same exact time. Our raw viewer retention charts went almost completely vertical inside 45 days.",
+    text: "They understand immediate social loop mechanics and world-class typographical layouts at the same exact time. Our raw viewer retention charts went almost completely vertical inside 45 days."
   },
   {
-    id: "OR-06",
-    author: "Nadia Belkacem",
-    role: "VP of Product, Core Core Inc",
-    avatarText: "NB",
-    tag: "Social Systems",
-    text: "The team elevated our product-led content system into something entirely alive and interactive. They are the tactical partners you hire when you are done pretending to scale.",
+    id: "OR-12",
+    author: "Arjun Verma",
+    role: "Head of Marketing, Juno Payments",
+    avatarText: "AV",
+    tag: "Web Dev",
+    text: "They built our high-traffic marketing framework using clean Next.js architecture that feels elite and converts beautifully. Best technical design layout team in the region, bar none."
   },
+  {
+    id: "OR-13",
+    author: "Meera Deshmukh",
+    role: "Director, Catalyst Studio",
+    avatarText: "MD",
+    tag: "Media Pipelines",
+    text: "Our media workflows were entirely transformed by their content delivery network blueprint. They are the tactical architecture partners you hire when you want to dominate distribution."
+  },
+  {
+    id: "OR-14",
+    author: "Rithvik Reddy",
+    role: "Founder, Apex Webworks",
+    avatarText: "RR",
+    tag: "Growth Engines",
+    text: "Unparalleled clarity in engineering logic. They bridged the gap between complex digital design systems and extreme front-end web speed. Our platform engagement multiplied 3x."
+  },
+  {
+    id: "OR-15",
+    author: "Divya Kapoor",
+    role: "VP of Digital, NeoRetail",
+    avatarText: "DK",
+    tag: "Social Systems",
+    text: "They transformed our enterprise's digital footprint into an active interactive workspace. Their systematic approach to content distribution eliminated all guesswork from our channels."
+  }
 ];
 
 const team = [
@@ -391,7 +463,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
               <div className="max-w-xl">
                 <span className="text-[10px] font-black uppercase tracking-widest text-white bg-[#07111f] px-3 py-1 rounded-md inline-block mb-3">
-                  // Verified Ecosystem Trust
+                  Verified Ecosystem Trust
                 </span>
                 <h2 className="text-4xl font-black uppercase tracking-tighter text-[#07111f] sm:text-5xl md:text-6xl leading-[0.9]">
                   Proof in the{" "}
@@ -411,7 +483,7 @@ export default function Home() {
         {/* Infinite Rolling Rows Container */}
         <div className="flex flex-col gap-8 overflow-visible pointer-events-none select-none">
           {/* Row 1: Leftward Infinite Stream */}
-          <MarqueeRow direction="left" speed={30}>
+          <MarqueeRow direction="left" speed={250}>
             {/* We map multiple times to ensure continuous DOM presence preventing any white gaps */}
             {[...reviewsRow1, ...reviewsRow1, ...reviewsRow1].map(
               (review, index) => (
@@ -434,19 +506,6 @@ export default function Home() {
                           </span>
                         </div>
                       </div>
-                      <div className="flex flex-col items-end gap-1">
-                        <div className="flex gap-0.5">
-                          {[...Array(5)].map((_, i) => (
-                            <Star
-                              key={i}
-                              className="size-2.5 fill-[#07111f] text-[#07111f]"
-                            />
-                          ))}
-                        </div>
-                        <span className="text-[8px] font-black uppercase tracking-wider bg-[#561bf4] text-white px-2 py-0.5 rounded-sm">
-                          {review.tag}
-                        </span>
-                      </div>
                     </div>
                     <p className="mt-4 text-xs sm:text-[13px] font-medium leading-relaxed text-[#07111f] whitespace-normal line-clamp-4">
                       &ldquo;{review.text}&rdquo;
@@ -454,7 +513,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center justify-between border-t border-[#07111f]/10 pt-3 mt-2">
                     <span className="text-[9px] font-black text-[#07111f]/40 uppercase tracking-widest">
-                      Case ID // {review.id}-{index}
+                      Review
                     </span>
                     <ArrowUpRight className="size-3.5 text-[#07111f]/60" />
                   </div>
@@ -464,7 +523,7 @@ export default function Home() {
           </MarqueeRow>
 
           {/* Row 2: Rightward Infinite Stream */}
-          <MarqueeRow direction="right" speed={28}>
+          <MarqueeRow direction="right" speed={220}>
             {[...reviewsRow2, ...reviewsRow2, ...reviewsRow2].map(
               (review, index) => (
                 <div
@@ -486,19 +545,6 @@ export default function Home() {
                           </span>
                         </div>
                       </div>
-                      <div className="flex flex-col items-end gap-1">
-                        <div className="flex gap-0.5">
-                          {[...Array(5)].map((_, i) => (
-                            <Star
-                              key={i}
-                              className="size-2.5 fill-[#07111f] text-[#07111f]"
-                            />
-                          ))}
-                        </div>
-                        <span className="text-[8px] font-black uppercase tracking-wider bg-[#b00046] text-white px-2 py-0.5 rounded-sm">
-                          {review.tag}
-                        </span>
-                      </div>
                     </div>
                     <p className="mt-4 text-xs sm:text-[13px] font-medium leading-relaxed text-[#07111f] whitespace-normal line-clamp-4">
                       &ldquo;{review.text}&rdquo;
@@ -506,7 +552,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center justify-between border-t border-[#07111f]/10 pt-3 mt-2">
                     <span className="text-[9px] font-black text-[#07111f]/40 uppercase tracking-widest">
-                      Asset Sync // {review.id}-{index}
+                      Review
                     </span>
                     <ArrowUpRight className="size-3.5 text-[#07111f]/60" />
                   </div>
