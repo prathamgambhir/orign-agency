@@ -112,7 +112,7 @@ export function ContactForm() {
             </option>
             <option className="bg-white">Under ₹12,000</option>
             <option className="bg-white">₹12,000 - ₹25,000</option>
-            <option className="bg-white">₹25,000 - ₹₹0,000</option>
+            <option className="bg-white">₹25,000 - ₹50,000</option>
             <option className="bg-white">₹50,000+</option>
           </select>
           {errors.budget && <span className="text-xs text-[#ff8c82]">{errors.budget.message}</span>}

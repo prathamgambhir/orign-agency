@@ -42,16 +42,16 @@ export default function ContactPage() {
 
         <footer className="border-t border-[#07111f]/12 py-6 text-sm text-[#07111f]/58">
           <div className="flex flex-col justify-between gap-4 md:flex-row">
-            <p>@2026 Orign Creative Studio</p>
+            <p>@{new Date().getFullYear()} Orign Creative Studio</p>
             <div className="flex gap-8">
-              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+              <a href="https://www.instagram.com/orign.co/" target="_blank" rel="noreferrer">
                 Instagram
               </a>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/orign-co-75a232418/" target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
-              <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
-                YouTube
+              <a href="https://x.com/orign911" target="_blank" rel="noreferrer">
+                X (Formerly Twitter)
               </a>
             </div>
           </div>
