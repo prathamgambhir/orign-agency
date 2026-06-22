@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { SiteNav } from "@/components/site-nav";
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: {
@@ -23,27 +23,27 @@ export const metadata: Metadata = {
     "creative agency for startups",
     "corporate brand design studio",
     "b2b brand scaling engine",
-    
+
     // --- High-End Web Dev Stack ---
     "nextjs web development agency",
     "react developer tailwindcss",
     "premium UI UX design systems",
     "high converting landing pages",
     "custom enterprise web development",
-    
+
     // --- Media & Video Production Ecosystem ---
     "brand videography studio",
     "commercial photography services",
     "multi cam podcast production",
     "podcast studio setup services",
     "professional video editing retainer",
-    
+
     // --- Organic Content Engine ---
     "short form video clipping automation",
     "instagram reels editing agency",
     "youtube shorts marketing strategy",
     "organic social media management",
-    "high retention content creation"
+    "high retention content creation",
   ],
   authors: [{ name: "Orign Studio Team", url: "https://orign.co.in" }],
   creator: "Orign",
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     description:
       "Architecting premium digital assets, high-retention video pipelines, and bespoke web platforms for brands with market momentum.",
     images: ["https://orign.co.in/logo.jpeg"],
-    creator: "@orignagency"
+    creator: "@orignagency",
   },
   robots: {
     index: true,
@@ -94,11 +94,9 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/logo.jpeg" },
-      { url: "/logo.jpeg", sizes: "32x32", type: "image/jpeg" }
+      { url: "/logo.jpeg", sizes: "32x32", type: "image/jpeg" },
     ],
-    apple: [
-      { url: "/logo.jpeg", sizes: "180x180", type: "image/jpeg" }
-    ],
+    apple: [{ url: "/logo.jpeg", sizes: "180x180", type: "image/jpeg" }],
   },
   alternates: {
     canonical: "https://orign.co.in",
@@ -111,12 +109,30 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn("h-full antialiased scroll-smooth", "font-sans", geist.variable)}>
+    <html
+      lang="en"
+      className={cn(
+        "h-full antialiased scroll-smooth",
+        "font-sans",
+        geist.variable,
+      )}
+    >
       <head>
         {/* Explicit alternate favicon declarations to clear stubborn browser tab asset caches */}
         <link rel="icon" href="/logo.jpeg" type="image/jpeg" />
         <link rel="apple-touch-icon" href="/logo.jpeg" />
-        
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-9GECQXK81N"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9GECQXK81N');",
+          }}
+        />
+
         {/* Rich Semantic Structured Data for Search Engine Verification */}
         <script
           type="application/ld+json"
@@ -124,23 +140,24 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
-              "name": "Orign",
-              "officialName": "Orign Creative Agency",
-              "image": "https://orign.co.in/logo.jpeg",
-              "url": "https://orign.co.in",
-              "logo": "https://orign.co.in/logo.jpeg",
-              "description": "An elite creative production agency specializing in bespoke enterprise web development, premium multi-cam videography, commercial photography, strategic social clipping engines, and complete end-to-end podcast production systems.",
-              "sameAs": [
-                "https://twitter.com/orignagency",
-                "https://instagram.com/orignagency",
-                "https://linkedin.com/company/orignagency"
+              name: "Orign",
+              officialName: "Orign Creative Agency",
+              image: "https://orign.co.in/logo.jpeg",
+              url: "https://orign.co.in",
+              logo: "https://orign.co.in/logo.jpeg",
+              description:
+                "An elite creative production agency specializing in bespoke enterprise web development, premium multi-cam videography, commercial photography, strategic social clipping engines, and complete end-to-end podcast production systems.",
+              sameAs: [
+                "https://x.com/orign911",
+                "https://instagram.com/orign.co.in",
+                "https://www.linkedin.com/in/orign-co-75a232418/",
               ],
-              "priceRange": "$$$",
-              "address": {
+              priceRange: "$$$",
+              address: {
                 "@type": "PostalAddress",
-                "addressCountry": "IN"
+                addressCountry: "IN",
               },
-              "knowsAbout": [
+              knowsAbout: [
                 "Web Development",
                 "Next.js Development",
                 "Videography",
@@ -148,8 +165,19 @@ export default function RootLayout({
                 "Short Form Video Infrastructure",
                 "Podcast Production Systems",
                 "Social Media Architecture",
-                "Brand Scaling Strategy"
-              ]
+                "Brand Scaling Strategy",
+                "Video Editing",
+                "Video Clipping",
+                "Photo Editing",
+                "Photography",
+                "Video Production",
+                "Podcast Studio Setup",
+                "Professional Video Editing Retainer",
+                "Short Form Video Clipping Automation",
+                "Instagram Reels Editing Agency",
+                "YouTube Shorts Marketing Strategy",
+                "Organic Social Media Management",
+              ],
             }),
           }}
         />
