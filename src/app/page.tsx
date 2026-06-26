@@ -847,9 +847,9 @@ function FooterLinks({ title, links }: { title: string; links: string[] }) {
     SocialMedia: "/social-media",
 
     // Social Handles (Update with your exact endpoints)
-    Instagram: "https://www.instagram.com/orign.co/",
+    Instagram: "https://www.instagram.com/orign.agency/",
     X: "https://x.com/orign911/",
-    LinkedIn: "https://www.linkedin.com/in/orign-co-75a232418",
+    LinkedIn: "https://www.linkedin.com/company/orign-agency/",
   };
 
   return (

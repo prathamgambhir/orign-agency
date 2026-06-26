@@ -1,6 +1,6 @@
 import { ServicePage } from "@/components/service-page";
 
-export const metadata = { title: "Video Clipping | Orign" };
+export const metadata = { title: "Video Clipping" };
 
 export default function Page() {
   return <ServicePage serviceKey="clipping" />;

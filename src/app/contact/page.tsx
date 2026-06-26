@@ -5,7 +5,7 @@ import { Reveal } from "@/components/motion-primitives";
 import { Toaster } from "@/components/ui/sonner"; // Importing shadcn sonner provider component
 
 export const metadata = {
-  title: "Get in Touch | Orign Creative Agency",
+  title: "Get in Touch",
 };
 
 export default function ContactPage() {
@@ -27,7 +27,7 @@ export default function ContactPage() {
               <p className="font-serif text-5xl italic text-[#07111f]/35 md:text-7xl">Let&apos;s build</p>
               <div className="mt-20 max-w-md">
                 <a href="mailto:orign911@gmail.com" className="border-b border-[#07111f]/25 pb-3 text-2xl font-medium">
-                  info@orign.studio
+                  theorign911@gmail.com
                 </a>
                 <p className="mt-8 leading-7 text-[#07111f]/58">
                   We are accepting new partnerships for brand films, websites, podcasts, shoots, and social systems. Expect a response within 8-12 hours.
@@ -42,12 +42,12 @@ export default function ContactPage() {
 
         <footer className="border-t border-[#07111f]/12 py-6 text-sm text-[#07111f]/58">
           <div className="flex flex-col justify-between gap-4 md:flex-row">
-            <p>@{new Date().getFullYear()} Orign Creative Studio</p>
+            <p>@{new Date().getFullYear()} ORIGN Creative Studio</p>
             <div className="flex gap-8">
-              <a href="https://www.instagram.com/orign.co/" target="_blank" rel="noreferrer">
+              <a href="https://www.instagram.com/orign.agency/" target="_blank" rel="noreferrer">
                 Instagram
               </a>
-              <a href="https://www.linkedin.com/in/orign-co-75a232418/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/company/orign-agency/" target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
               <a href="https://x.com/orign911" target="_blank" rel="noreferrer">

@@ -149,8 +149,8 @@ export default function RootLayout({
               "ORIGN is a premium creative agency architecting high-performance websites, professional videography, premium photoshoots, short-form video clipping, podcast production, and content systems for startups and brands.",
               sameAs: [
                 "https://x.com/orign911",
-                "https://instagram.com/orign.co.in",
-                "https://www.linkedin.com/in/orign-co-75a232418/",
+                "https://instagram.com/orign.agency",
+                "https://www.linkedin.com/company/orign-agency/",
               ],
               priceRange: "$$$",
               address: {
